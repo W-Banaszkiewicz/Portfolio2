@@ -1,0 +1,196 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    margin: 0;
+    padding: 5px 0;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #1a1a1a;
+    box-shadow: 0 10px 10px -5px rgba(255, 255, 255, 0.2);
+}
+
+#navbar ul {
+    display: flex;
+    margin: 10px 0 10px auto;
+    width: 60%;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#navbar ul li a {
+    margin-left: 3px;
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.9;
+    font-size: 1.5rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+#navbar ul li a:hover {
+    color: #e45656;
+    opacity: 1;
+    text-decoration: underline;
+    transition: all 0.2s;
+}
+
+#home-section {
+    margin-top: 0;
+    height: 300px;
+    /*background-image: url("https://cdn.pixabay.com/photo/2014/06/13/00/16/figure-367946_1280.png");*/
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg");
+    background-size: cover;
+}
+
+#welcome-section {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.message{
+    display: flex;
+    margin: 20px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+
+.message img, .project img {
+    max-width: 100%;
+}
+
+section {
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+.section-heading {
+    font-size: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.my-description {
+    display: block;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+#skills-section {
+    background-color: white;
+    color: black;
+}
+
+#skills-section h1 {
+    color: black;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.skill {
+    padding: 3rem;
+    text-align: center;
+}
+
+.skill-name {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.skill a {
+    text-decoration: none;
+    color: black;
+}
+
+.skill a:hover {
+    color: purple;
+    transition: all 0.2s;
+}
+
+.skill progress {
+    background-color: black;
+    border: 1px solid black;
+}
+
+.skill progress::-webkit-progress-value {
+    background-color: #e45656;
+}
+
+.skill progress::-webkit-progress-bar {
+    background-color: white;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.project {
+    padding: 20px;
+    width: 25%;
+}
+
+.project a{
+    text-decoration: none;
+    color: white;
+}
+
+.project a:hover {
+    color: purple;
+    transition: all 0.2s;
+}
+
+#contact-section {
+    margin-top: 50px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#contact-section h1{
+    color: black;
+}
+
+#contact-section a {
+    color: black;
+    padding: 10px;
+}
+
+#contact-section a:hover {
+    color: purple;
+    transition: all 0.2s;
+}
+
